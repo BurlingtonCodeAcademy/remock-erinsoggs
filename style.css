@@ -35,6 +35,10 @@
   text-decoration: none
 }
 
+.btn-gradient:hover {
+  text-decoration: none
+}
+
 .button-container {
   display: flex;
   justify-content: space-evenly;
@@ -66,33 +70,60 @@
   border-radius: 5px
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 16px
+.flex-container {
+ display: flex;
+ justify-content: space-evenly;
+ flex-direction: row;
+ margin: 5vh 16vw 5vh 16vw
 }
 
-.box1 {
-  grid-column-start: 1; 
-  grid-column-end: 1; 
-  grid-row-start: 1;
-  grid-row-end: 1
+.right-column {
+  margin-left: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-end
 }
 
-.box2 {
-  grid-column-start: 1; 
-  grid-column-end: 1; 
-  grid-row-start: 2;
-  grid-row-end: 2
+.left-column {
+  width: 70%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.box3 {
-  grid-column-start: 1; 
-  grid-column-end: 1; 
-  grid-row-start: 3;
-  grid-row-end: 3
+.left-column img {
+  padding: 2px;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  border: 2px gray double
 }
 
+/* .button-border {
+  width: 70%;
+  border-bottom: 4px double;
+  margin-left: 20vw;
+  margin-right: 20vw
+} */
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 30vh
+}
+
+.button-container-continued {
+  width: 30vw
+}
+
+.posts-border {
+  border-bottom: 1px double;
+  padding-bottom: 5vh
+}
+
+.posts-border-double {
+  border-bottom: 4px double;
+  padding-bottom: 5vh
+}
