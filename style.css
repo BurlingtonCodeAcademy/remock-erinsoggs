@@ -94,18 +94,21 @@
 }
 
 .left-column img {
+  margin-left: 10%;
   padding: 2px;
   margin-top: 2vh;
   margin-bottom: 4vh;
-  border: 2px gray double
+  border: 2px gray double;
+  max-width: 43%;
+
 }
 
-/* .button-border {
-  width: 70%;
+.button-border {
+  width: 100%;
   border-bottom: 4px double;
-  margin-left: 20vw;
-  margin-right: 20vw
-} */
+  margin-top: 8%;
+  margin-bottom: 8%
+}
 
 .button-wrapper {
   display: flex;
