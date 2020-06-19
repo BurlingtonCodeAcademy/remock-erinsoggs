@@ -1,4 +1,6 @@
 /* ***** HOME PAGE ***** */
+/* ***** HOME PAGE ***** */
+/* ***** HOME PAGE ***** */
 
 .title {
   margin-top: 7vh;
@@ -81,7 +83,6 @@
   margin-left: 20px;
   width: 30%;
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
   align-items: flex-end
 }
@@ -99,8 +100,6 @@
   margin-top: 2vh;
   margin-bottom: 4vh;
   border: 2px gray double;
-  max-width: 43%;
-
 }
 
 .button-border {
@@ -114,19 +113,43 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 30vh
+  height: 23vh
 }
 
 .button-container-continued {
-  width: 30vw
+  width: 30vw;
+  margin-bottom: 5vh
 }
 
 .posts-border {
   border-bottom: 1px double;
-  padding-bottom: 5vh
+  padding-bottom: 5vh;
+  margin-bottom: 5vh
 }
 
 .posts-border-double {
   border-bottom: 4px double;
   padding-bottom: 5vh
+}
+
+.paragraph-padding {
+  padding-bottom: 5vh;
+}
+
+.bernie-icecream {
+  float: left;
+  padding: 2%
+}
+
+.something-of-note {
+  padding-bottom: 4vh
+}
+
+.turtle {
+  float: left;
+  padding: 2%
+}
+
+.less-note {
+  padding-bottom: 4vh
 }
