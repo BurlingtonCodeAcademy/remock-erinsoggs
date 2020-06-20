@@ -39,7 +39,7 @@
 
 .btn-gradient:hover {
   text-decoration: none;
-  color: red
+  color: rgb(233, 17, 143)
 }
 
 .button-container {
@@ -79,6 +79,14 @@
  flex-direction: row;
  margin: 5vh 16vw 5vh 16vw
 }
+
+.flex-container-cr {
+  padding-top: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 5vh 16vw 5vh 16vw
+ }
 
 .right-column {
   margin-left: 20px;
@@ -257,3 +265,22 @@ form {
   /* width: 54%; */
   padding: 0 6vw 0 0;
 }
+
+/* ***** CONTINUE READING PAGE ***** */
+/* ***** CONTINUE READING PAGE ***** */
+/* ***** CONTINUE READING PAGE ***** */
+
+.flex-container-cr {
+  padding-top: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 5vh 16vw 5vh 16vw
+ }
+
+ .posts-border-cr {
+  border-bottom: 1px solid;
+  padding-bottom: 5vh;
+  margin-bottom: 5vh
+}
+
