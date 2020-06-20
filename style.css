@@ -111,6 +111,15 @@
   border: 2px gray double;
 }
 
+.just-ap {
+  color: #333333;
+}
+
+.just-ap:hover {
+  text-decoration: none;
+  color: blue
+}
+
 .button-border {
   width: 100%;
   border-bottom: 4px double;
@@ -283,4 +292,24 @@ form {
   padding-bottom: 5vh;
   margin-bottom: 5vh
 }
+
+/* ***** LEARN MORE PAGE *****
+***** LEARN MORE PAGE *****
+***** LEARN MORE PAGE ***** */
+
+.right-column-now-left {
+  margin-right: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end
+}
+
+.left-column-now-right {
+  width: 70%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
 
