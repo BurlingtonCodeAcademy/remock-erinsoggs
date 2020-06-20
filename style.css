@@ -153,3 +153,40 @@
 .less-note {
   padding-bottom: 4vh
 }
+
+/* footer */
+
+.footer {
+    background: #f5f0f0;
+    display: flex;
+    height: 40vh;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+    flex-direction: column
+    /* margin: 0 1vw 0 1vw */
+}
+
+ .footer-questions {
+  display: flex;
+  justify-content: center;
+  padding-top: 6vh
+}
+
+.form-row {
+  display: inline-flex;
+}
+
+.form-row {
+  display: flex;
+  padding-left: 14vw
+}
+
+.form-group {
+  display: flex;
+  padding-left: 14vw
+}
+
+.form-control-message {
+  width: 30.5vw;
+  height: 16vh
+}
