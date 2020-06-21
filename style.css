@@ -2,20 +2,32 @@
 /* ***** HOME PAGE ***** */
 /* ***** HOME PAGE ***** */
 
+h1 {
+  font-family: Roboto Slab;
+}
+
+p {
+  font-family: Oxygen;
+}
+
+h3  {
+  font-family: Roboto Slab;
+}
+
 .title-link:hover {
   text-decoration: none;
 }
 
 .title {
   margin-top: 7vh;
-  text-align: center
+  text-align: center;
 }
 
 .border {
   padding-top: 7vh;
   margin-left: 30vw;
   margin-right: 30vw;
-  border-bottom: 4px double
+  border-bottom: 4px double;
 }
 
 .icecream-container {
@@ -23,12 +35,12 @@
   width: 40vw;
   display: flex;
   justify-content: space-evenly;
-  margin: auto
+  margin: auto;
 }
 
 .icecream-container img {
   height: 23vh;
-  width: 10vw
+  width: 10vw;
 }
 
 .btn-gradient {
@@ -38,19 +50,20 @@
   background: linear-gradient(#167FFB, #0F60C4);
   transition: background 0.3s ease;
   border: 1px solid #0F60C4;
-  text-decoration: none
+  text-decoration: none;
+  font-family: Oxygen;
 }
 
 .btn-gradient:hover {
   text-decoration: none;
-  color: rgb(233, 17, 143)
+  color: rgb(233, 17, 143);
 }
 
 .button-container {
   display: flex;
   justify-content: space-evenly;
   padding-top: 6vh;
-  padding-bottom: 6vh
+  padding-bottom: 6vh;
 }
 
 .quote-card-border {
@@ -59,7 +72,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   margin-left: 1vw;
-  margin-right: 1vw
+  margin-right: 1vw;
 }
 
 .quote-card {
@@ -74,14 +87,15 @@
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius: 5px
+  border-radius: 5px;
+  font-family: Oxygen;
 }
 
 .flex-container {
  display: flex;
  justify-content: space-evenly;
  flex-direction: row;
- margin: 5vh 16vw 5vh 16vw
+ margin: 5vh 16vw 5vh 16vw;;;;
 }
 
 .flex-container-cr {
@@ -89,7 +103,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin: 5vh 16vw 5vh 16vw
+  margin: 5vh 16vw 5vh 16vw;;;;
  }
 
 .right-column {
@@ -97,7 +111,7 @@
   width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end
+  align-items: flex-end;;;;
 }
 
 .left-column {
@@ -128,30 +142,30 @@
   width: 100%;
   border-bottom: 4px double;
   margin-top: 8%;
-  margin-bottom: 8%
+  margin-bottom: 8%;;;;
 }
 
 .button-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 23vh
+  height: 23vh;;;;
 }
 
 .button-container-continued {
   width: 30vw;
-  margin-bottom: 5vh
+  margin-bottom: 5vh;;;;
 }
 
 .posts-border {
   border-bottom: 1px double;
   padding-bottom: 5vh;
-  margin-bottom: 5vh
+  margin-bottom: 5vh;;;
 }
 
 .posts-border-double {
   border-bottom: 4px double;
-  padding-bottom: 5vh
+  padding-bottom: 5vh;;;
 }
 
 .paragraph-padding {
@@ -160,20 +174,20 @@
 
 .bernie-icecream {
   float: left;
-  padding: 2%
+  padding: 2%;;;
 }
 
 .something-of-note {
-  padding-bottom: 4vh
+  padding-bottom: 4vh;;;
 }
 
 .turtle {
   float: left;
-  padding: 2%
+  padding: 2%;;;
 }
 
 .less-note {
-  padding-bottom: 4vh
+  padding-bottom: 4vh;;;
 }
 
 /* footer */
@@ -188,7 +202,7 @@
 .footer-questions { 
   display: flex;
   justify-content: center;
-  padding-top: 6vh
+  padding-top: 6vh;;
 }
 
 form {
@@ -209,22 +223,22 @@ form {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end
+  align-items: flex-end;;
 }
 
 .form-row {
   padding-left: 14vw;
-  display: inline-flex
+  display: inline-flex;;
 }
 
 .form-group {
   display: flex;
-  padding-left: 14vw
+  padding-left: 14vw;;
 }
 
 .form-control-message {
   width: 30.5vw;
-  height: 16vh
+  height: 16vh;;
 }
 
 .footer-text {
@@ -235,7 +249,7 @@ form {
 .footer-questions {
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;;
 }
 
 .footer-container {
@@ -251,7 +265,8 @@ form {
   border-radius: 4px;
   background: #df7a90;
   transition: background 0.3s ease;
-  margin-left: 14vw
+  margin-left: 14vw;
+  font-family: Oxygen;
 }
 
 .btn-flat:hover {
@@ -288,13 +303,13 @@ form {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin: 5vh 16vw 5vh 16vw
+  margin: 5vh 16vw 5vh 16vw;
  }
 
  .posts-border-cr {
   border-bottom: 1px solid;
   padding-bottom: 5vh;
-  margin-bottom: 5vh
+  margin-bottom: 5vh;
 }
 
 /* ***** LEARN MORE PAGE *****
@@ -306,7 +321,7 @@ form {
   width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end
+  align-items: flex-end;
 }
 
 .left-column-now-right {
@@ -324,14 +339,14 @@ form {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  width: 50%;
 }
 
 .dog-picture img {
   height: 30%;
-  width: 20%
+  width: 20%;
 }
 
 .cheese-ipsum {
-  margin: 0 25vw 0 25vw
+  margin: 0 25vw 0 25vw;
 }
