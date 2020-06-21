@@ -16,6 +16,7 @@ h3  {
 
 .title-link:hover {
   text-decoration: none;
+  color: rgb(230, 119, 137)
 }
 
 .title {
@@ -47,17 +48,26 @@ h3  {
   color: white;
   padding: 2vh 2vw;
   border-radius: 4px;
-  background: linear-gradient(#167FFB, #0F60C4);
+  background: linear-gradient(#167FFB, #6c9edb);
   transition: background 0.3s ease;
-  border: 1px solid #0F60C4;
+  border: 1px solid #167FFB;
   text-decoration: none;
   font-family: Oxygen;
 }
 
 .btn-gradient:hover {
   text-decoration: none;
-  color: rgb(233, 17, 143);
+  color: rgb(230, 119, 137);
 }
+
+/* FOR DATES */
+/* .btn-flat-dates {
+  color: #167FFB;
+  border: 1px #167ffb solid;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: white;
+} */
 
 .button-container {
   display: flex;
@@ -95,7 +105,7 @@ h3  {
  display: flex;
  justify-content: space-evenly;
  flex-direction: row;
- margin: 5vh 16vw 5vh 16vw;;;;
+ margin: 5vh 16vw 5vh 16vw;
 }
 
 .flex-container-cr {
@@ -103,7 +113,7 @@ h3  {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin: 5vh 16vw 5vh 16vw;;;;
+  margin: 5vh 16vw 5vh 16vw;
  }
 
 .right-column {
@@ -111,7 +121,7 @@ h3  {
   width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;;;;
+  align-items: flex-end;
 }
 
 .left-column {
@@ -135,7 +145,7 @@ h3  {
 
 .just-ap:hover {
   text-decoration: none;
-  color: blue
+  color: rgb(230, 119, 137);
 }
 
 .button-border {
@@ -160,12 +170,12 @@ h3  {
 .posts-border {
   border-bottom: 1px double;
   padding-bottom: 5vh;
-  margin-bottom: 5vh;;;
+  margin-bottom: 5vh;
 }
 
 .posts-border-double {
   border-bottom: 4px double;
-  padding-bottom: 5vh;;;
+  padding-bottom: 5vh;
 }
 
 .paragraph-padding {
@@ -187,7 +197,7 @@ h3  {
 }
 
 .less-note {
-  padding-bottom: 4vh;;;
+  padding-bottom: 4vh;
 }
 
 /* footer */
@@ -202,12 +212,23 @@ h3  {
 .footer-questions { 
   display: flex;
   justify-content: center;
-  padding-top: 6vh;;
+  padding-top: 6vh;
+}
+#form-control:focus {
+  background-color: white;
+}
+
+textarea:focus {
+  background-color:white;
 }
 
 form {
   display: flex;
   flex-direction: column;
+}
+
+#form-control {
+  background-color: #f2eaea;
 }
 
 .footer-left {
@@ -223,12 +244,12 @@ form {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;;
+  align-items: flex-end;
 }
 
 .form-row {
   padding-left: 14vw;
-  display: inline-flex;;
+  display: inline-flex;
 }
 
 .form-group {
@@ -238,7 +259,8 @@ form {
 
 .form-control-message {
   width: 30.5vw;
-  height: 16vh;;
+  height: 16vh;
+  background-color: #f2eaea;
 }
 
 .footer-text {
@@ -249,7 +271,7 @@ form {
 .footer-questions {
   display: flex;
   flex-direction: column;
-  align-items: center;;
+  align-items: center;
 }
 
 .footer-container {
@@ -331,6 +353,14 @@ form {
   flex-direction: column;
 }
 
+.left-column-now-right img {
+  margin-left: 10%;
+  padding: 2px;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  border: 2px rgb(230, 119, 137) double;
+}
+
 /* ***** BLOG POST *****
 ***** BLOG POST *****
 ***** BLOG POST ***** */
@@ -339,7 +369,7 @@ form {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
 }
 
 .dog-picture img {
